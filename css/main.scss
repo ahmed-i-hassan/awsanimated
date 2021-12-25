@@ -1,0 +1,127 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+
+    .container {
+        display: flex;
+        place-content: space-between;
+        width: 60%;
+        margin: auto;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #1c1d1f;
+            padding: 1em;            
+        }
+    }
+
+    .logo {
+        text-decoration: none;
+        font-size: 18px;
+        color: #1c1d1f;
+    }
+}
+
+.hero {
+    .container {
+        width: 60%;
+        margin: auto;
+    }
+
+    p {
+        font-size: 50px;
+        font-weight: bold;
+        background-color: #37475a;
+        color: white;
+        border-radius: .25em;
+        text-align: center;
+        padding: 70px 0;
+    }
+}
+
+.title-bordered {
+    .container {
+        width: 60%;
+        margin: auto;
+        border: 1px solid #ddd;
+        border-radius: 40px;
+        padding: 2px;
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            font-size: 22px;
+            font-weight: normal;
+            background-color: #f0f0f0;
+            padding: 10px 25px;
+            border-radius: 1em;
+            margin: 0;
+        }
+    }
+}
+
+.first-row-section {
+    .container {
+        display: flex;
+        width: 60%;
+        margin: auto;
+        justify-content: space-between;
+
+        a {
+            width: 300px;
+            font-size: 22px;
+            text-decoration: none;
+            color: black;
+            border: 1px solid #fff;
+            text-align: center;
+            margin: 50px 0;
+            border-radius: .5em;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            .architecture-title {
+                padding: 15px;
+                height: 90px;
+                margin-top: 10px;
+            }
+
+            .two-icons {
+                display: flex;
+                justify-content: space-around;
+                height: 94px;
+                width: 230px;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            .three-icons {
+                display: flex;
+                justify-content: space-between;
+                height: 94px;
+                width: 230px;
+                margin: auto;
+                margin-top: 15px;
+            }
+
+            .six-icons {
+                display: grid;
+                grid-template-columns: 50px 50px 50px;
+                grid-template-rows: 50px 50px;
+                justify-content: center;
+            }
+        }
+    }
+}
